@@ -16,7 +16,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 const container = containerRef.current;
 const highlight = highlightRef.current;
 
@@ -69,7 +69,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 let last = { x: 0, y: 0 };
 let pointer = { x: 0, y: 0 };
 

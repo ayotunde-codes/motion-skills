@@ -17,7 +17,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 const pointer = { x: 0, y: 0 };
 const smooth = { x: 0, y: 0 };
 
@@ -76,7 +76,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 gsap.fromTo(
   ".reveal",
   { clipPath: "inset(100% 0 0 0)" },

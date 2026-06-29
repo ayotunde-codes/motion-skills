@@ -34,7 +34,7 @@ npx skills@latest add yourname/motion-skills --skill gsap-recipe-extractor
 This repo includes a helper script for the downloaded Discord archive:
 
 ```sh
-node skills/codegrid-archive-navigator/scripts/search_archive.js \
+node skills/codegrid-archive-navigator/scripts/search_archive.ts \
   --manifest ../discord-archive/manifest.json \
   --query "scrolltrigger sticky cards" \
   --limit 5
@@ -43,10 +43,12 @@ node skills/codegrid-archive-navigator/scripts/search_archive.js \
 Example queries:
 
 ```sh
-node skills/codegrid-archive-navigator/scripts/search_archive.js --query "cursor trail mouse movement"
-node skills/codegrid-archive-navigator/scripts/search_archive.js --query "three.js product scroll animation"
-node skills/codegrid-archive-navigator/scripts/search_archive.js --query "svg mask gooey reveal"
+node skills/codegrid-archive-navigator/scripts/search_archive.ts --query "cursor trail mouse movement"
+node skills/codegrid-archive-navigator/scripts/search_archive.ts --query "three.js product scroll animation"
+node skills/codegrid-archive-navigator/scripts/search_archive.ts --query "svg mask gooey reveal"
 ```
+
+`search_archive.js` remains as a compatibility wrapper for older commands.
 
 ## Publish Checklist
 

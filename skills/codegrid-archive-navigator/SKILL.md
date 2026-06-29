@@ -19,11 +19,13 @@ Look for a manifest in this order:
 
 ## Search
 
-Use `scripts/search_archive.js` when available:
+Use the TypeScript helper `scripts/search_archive.ts` when available:
 
 ```sh
-node scripts/search_archive.js --manifest /path/to/manifest.json --query "scrolltrigger sticky cards" --limit 10
+node scripts/search_archive.ts --manifest /path/to/manifest.json --query "scrolltrigger sticky cards" --limit 10
 ```
+
+`scripts/search_archive.js` is kept as a compatibility wrapper for older commands.
 
 If the script is unavailable, inspect the manifest directly.
 

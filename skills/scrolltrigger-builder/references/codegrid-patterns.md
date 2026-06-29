@@ -16,7 +16,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 ScrollTrigger.create({
   trigger: ".spotlight",
   start: "top top",
@@ -67,7 +67,7 @@ Mechanic:
 
 Implementation shape:
 
-```js
+```ts
 const track = document.querySelector(".track");
 const distance = track.scrollWidth - window.innerWidth;
 
