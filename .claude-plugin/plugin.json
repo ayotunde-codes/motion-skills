@@ -1,0 +1,16 @@
+{
+  "name": "motion-skills",
+  "skills": [
+    "./skills/motion-director",
+    "./skills/codegrid-archive-navigator",
+    "./skills/gsap-recipe-extractor",
+    "./skills/remix-this-effect",
+    "./skills/motion-to-component",
+    "./skills/scrolltrigger-builder",
+    "./skills/cursor-interaction-lab",
+    "./skills/svg-mask-lab",
+    "./skills/threejs-product-motion",
+    "./skills/performance-pass"
+  ]
+}
+
