@@ -7,6 +7,8 @@ description: Build tactile cursor and pointer interactions. Use for cursor trail
 
 Use this skill for pointer-driven microinteractions and hero interactions.
 
+When the user is working from a Codegrid-style archive or asks for concrete examples, read [references/codegrid-patterns.md](references/codegrid-patterns.md).
+
 ## Process
 
 1. Choose the interaction type:
@@ -56,4 +58,3 @@ Provide:
 - Cursor effects should make the UI feel tactile, not hard to use.
 - Keep pointer latency low.
 - Do not put heavy canvas effects on every page.
-

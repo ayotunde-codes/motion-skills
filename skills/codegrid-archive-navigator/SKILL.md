@@ -7,6 +7,8 @@ description: Search and navigate a local Codegrid-style animation archive. Use w
 
 Use this skill to find relevant motion examples inside a local archive before writing new code.
 
+For search buckets and representative example titles, read [references/archive-taxonomy.md](references/archive-taxonomy.md).
+
 ## Inputs
 
 Look for a manifest in this order:
@@ -52,4 +54,3 @@ Prefer examples whose titles or content mention the requested mechanic:
 - `slider`, `gallery`, `page transition`, `reveal`, `pinned`, `sticky`
 
 Prefer newer examples when the user asks for modern/premium/current patterns. Prefer smaller older examples when the user asks to learn a mechanic from first principles.
-

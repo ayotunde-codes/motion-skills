@@ -7,6 +7,8 @@ description: Build or repair GSAP ScrollTrigger animations. Use for pinned secti
 
 Use this skill for scroll-driven motion where layout and trigger geometry matter as much as the timeline.
 
+When the user is working from a Codegrid-style archive or asks for concrete examples, read [references/codegrid-patterns.md](references/codegrid-patterns.md).
+
 ## Process
 
 1. Define the scroll story:
@@ -56,4 +58,3 @@ Use this skill for scroll-driven motion where layout and trigger geometry matter
 - Horizontal scroll: content width drives `end`, transform x by overflow amount.
 - Product reveal: pinned scene, scrub timeline through states.
 - Text reveal: split text once, animate scoped chars/words, revert on cleanup.
-

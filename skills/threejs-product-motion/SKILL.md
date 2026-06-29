@@ -7,6 +7,8 @@ description: Build GSAP-driven Three.js product and WebGL motion. Use for GLB mo
 
 Use this skill when a 3D/WebGL scene is part of the product storytelling.
 
+When the user is working from a Codegrid-style archive or asks for concrete examples, read [references/codegrid-patterns.md](references/codegrid-patterns.md).
+
 ## Process
 
 1. Define the scene purpose:
@@ -56,4 +58,3 @@ Provide:
 - Do not use WebGL for decoration alone.
 - Keep the canvas full-bleed or clearly integrated into the page flow.
 - Verify the canvas is nonblank and correctly framed after implementation.
-

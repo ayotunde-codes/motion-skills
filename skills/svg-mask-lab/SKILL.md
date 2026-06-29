@@ -7,6 +7,8 @@ description: Build SVG mask, clip-path, gooey, path, and reveal effects. Use for
 
 Use this skill when the effect depends on SVG geometry, masks, clip paths, paths, or filters.
 
+When the user is working from a Codegrid-style archive or asks for concrete examples, read [references/codegrid-patterns.md](references/codegrid-patterns.md).
+
 ## Process
 
 1. Identify the SVG role:
@@ -52,4 +54,3 @@ Provide:
 - Gooey reveal: SVG filter merges moving circles/blobs.
 - SVG nav: menu items revealed by clipping or path movement.
 - Image portal: media revealed through animated clip geometry.
-
