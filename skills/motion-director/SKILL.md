@@ -29,6 +29,7 @@ Use this skill to choose motion patterns before implementation. The goal is not 
    - `cursor-interaction-lab` for pointer trails, magnetic buttons, direction-aware hovers, or tactile cards
    - `svg-mask-lab` for wipes, masks, gooey reveals, clip-paths, or SVG nav transitions
    - `threejs-product-motion` for GLB/model/canvas product scenes
+   - `gsap-awwwards-website` when the user wants to bootstrap a React/Vite/Tailwind Awwwards-style product landing page
    - `motion-to-component` when adapting a prototype into a real React/Next component
    - `performance-pass` before final delivery
 
@@ -45,4 +46,3 @@ Use this skill to choose motion patterns before implementation. The goal is not 
 - Do not animate every section.
 - Do not use heavy WebGL where a CSS/GSAP effect communicates the same idea.
 - Treat performance, readability, and user control as part of the motion design.
-

@@ -16,6 +16,28 @@ Install one skill:
 npx skills@latest add yourname/motion-skills --skill gsap-recipe-extractor
 ```
 
+Install to all supported agents/IDEs:
+
+```sh
+npx skills@latest add ayotunde-codes/motion-skills --agent '*'
+```
+
+Install one skill to the agents shown in the explainx.ai screenshot:
+
+```sh
+npx skills@latest add ayotunde-codes/motion-skills \
+  --skill gsap-awwwards-website \
+  --agent claude-code cursor cline windsurf codex goose github-copilot zed
+```
+
+Install one skill to one agent:
+
+```sh
+npx skills@latest add ayotunde-codes/motion-skills --skill gsap-awwwards-website --agent claude-code
+npx skills@latest add ayotunde-codes/motion-skills --skill gsap-awwwards-website --agent windsurf
+npx skills@latest add ayotunde-codes/motion-skills --skill gsap-awwwards-website --agent codex
+```
+
 ## Included Skills
 
 - `motion-director` - choose the right motion workflow
@@ -27,6 +49,7 @@ npx skills@latest add yourname/motion-skills --skill gsap-recipe-extractor
 - `cursor-interaction-lab` - create cursor trails, magnetic hovers, and pointer effects
 - `svg-mask-lab` - build mask, clip-path, gooey, and SVG reveal effects
 - `threejs-product-motion` - combine Three.js scenes with GSAP product motion
+- `gsap-awwwards-website` - bootstrap and remix an Awwwards-style GSAP React/Vite/Tailwind product landing page
 - `performance-pass` - make motion-heavy pages fast, stable, and respectful of reduced motion
 
 ## Local Archive Search
