@@ -4,16 +4,30 @@ Installable agent skills for turning GSAP, ScrollTrigger, SVG, cursor, and Three
 
 ## Install
 
-After publishing this folder as a GitHub repo:
+Preview all available skills without installing:
 
 ```sh
-npx skills@latest add yourname/motion-skills
+npx skills@latest add ayotunde-codes/motion-skills --list
+```
+
+Open the interactive picker and select the skill(s) you want:
+
+```sh
+npx skills@latest add ayotunde-codes/motion-skills
+```
+
+In the picker, use the arrow keys to move, space to select, and enter to confirm.
+
+Open the skill picker but install to all supported agents/IDEs:
+
+```sh
+npx skills@latest add ayotunde-codes/motion-skills --agent '*'
 ```
 
 Install one skill:
 
 ```sh
-npx skills@latest add yourname/motion-skills --skill gsap-recipe-extractor
+npx skills@latest add ayotunde-codes/motion-skills --skill gsap-recipe-extractor
 ```
 
 Install to all supported agents/IDEs:
